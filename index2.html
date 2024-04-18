@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let livros = [
+            {
+                titulo: "Menino Maluquinho",
+                autor: "Ziraldo Alves Pinto",
+                ano: 1980,
+                emprestado: true,
+                categorias: ["Infantil"],
+                revisoes: [
+                    { comentario: "Livro de um menino que adora novas aventuras e sempre está em confusões", avaliacao: 4.5 },
+                    { comentario: "Divertido e cativante!", avaliacao: 5 }
+                ]
+            },
+        ];
+
+
+        let primeiroLivro = livros[0];
+        console.log("Título: " + primeiroLivro.titulo);
+        console.log("Autor: " + primeiroLivro.autor);
+        console.log("Ano: " + primeiroLivro.ano);
+        console.log("Emprestado: " + primeiroLivro.emprestado);
+        console.log("categoria: " + primeiroLivro.categorias);
+    </script>
+</body>
+
+</html>
